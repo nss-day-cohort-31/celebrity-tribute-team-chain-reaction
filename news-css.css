@@ -4,6 +4,12 @@
     align-items: center;
 
 }
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     max-height: 200px;
     max-width: 200px;
