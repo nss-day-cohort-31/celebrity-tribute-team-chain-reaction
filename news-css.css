@@ -1,4 +1,44 @@
 .events {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/* All the divs of the news events must have individual margins set */
+.first-news {
+    /* this if for the first news post. the margin is funky so I am setting it's left margin -65px */
+    margin-left: -75px;
+}
+
+.second-news {
+    margin-left: -128px;
+}
+.sec-news {
+    margin-left: 16px;
+}
+
+.third-news {
+    margin-left: -94px;
+}
+
+.fourth-news {
+    margin-left: 133px;
+}
+
+.fifth-news {
+    margin-left: -33px;
+}
+
+/* changing the class="events" link's colors */
+.events a:visited {
+    color: black;
+}
+
+.events a:hover {
+    color: grey;
 }
