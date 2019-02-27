@@ -1,23 +1,58 @@
 body {
   background-color: #edece3;
+  margin: auto;
+  width: 50%;
 }
 
 .nav {
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .link{
     display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navlist {
     float: left;
+}
+
+/* .mainPageHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 20px;
+  margin-left: 230px;
+} */
+
+.mainHeaderName {
+  padding: 50px;
+  border: 5px dotted black;
+  margin-bottom: 50px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-left: 145px;
+}
+
+.pageHeader {
+  padding-left: 200px;
+} 
+
+.headerPhoto {
+  margin-left: 330px;
+}
+
+.extraExtraHeader {
+  border: 5px dotted black;
+  margin-bottom: 50px;
+  text-align: center;
 }
