@@ -21,3 +21,30 @@ body {
 .navlist {
     float: left;
 }
+
+/* .mainPageHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 20px;
+  margin-left: 230px;
+} */
+
+.mainHeaderName {
+  padding: 25px;
+  border: 5px dotted black;
+  margin-bottom: 50px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-left: 230px;
+}
+
+.pageHeader { */
+  padding-left: 200px;
+} 
+
+.mainHeaderPhoto {
+  margin-left: 55px;
+}
