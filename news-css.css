@@ -1,3 +1,35 @@
+body {
+    background-color: #edece3;
+    font-family: 'Lobster', cursive;
+}
+/* ======================= Navigation Styling ========================== */
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.navImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainNav {
+    height: 93px;
+    padding-top: 35px;
+    padding-bottom: 32px;
+    background-color: black;
+}
+.navFlex {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+
+/* All the divs of the news events must have individual margins set */
+/* =============================== NEWS STYLING ================================ */
 .events {
     display: flex;
     flex-direction: column;
@@ -5,17 +37,11 @@
 
 }
 
-.pageHeader {
-    display: flex;
-    justify-content: center;
-}
-
-img {
+.feed {
     max-height: 200px;
     max-width: 200px;
 }
 
-/* All the divs of the news events must have individual margins set */
 .first-news {
     /* this if for the first news post. the margin is funky so I am setting it's left margin -65px */
     margin-left: -75px;
@@ -24,6 +50,7 @@ img {
 .second-news {
     margin-left: -128px;
 }
+
 .sec-news {
     margin-left: 16px;
 }
@@ -41,10 +68,34 @@ img {
 }
 
 /* changing the class="events" link's colors */
+/* ==================================== LINKS STYLING ================================= */
+a:hover {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
 .events a:visited {
     color: black;
 }
 
 .events a:hover {
     color: grey;
+}
+
+/* ============================= FOOTER STYLING ================================= */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(232, 219, 205);
+}
+
+.foot {
+    height: 300px
 }

@@ -5,11 +5,12 @@ body {
 }
 
 .nav {
-    list-style-type: none;
+    /* list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
     overflow: hidden;
-    background-color: #333;
+    background-color: #333; */
+    color: black;
 }
 
 .link{
@@ -20,9 +21,9 @@ body {
     text-decoration: none;
 }
 
-.navlist {
+/* .navlist {
     float: left;
-}
+} */
 
 /* .mainPageHeader {
   display: block;
